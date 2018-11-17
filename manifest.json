@@ -1,0 +1,15 @@
+{
+    "name": "feedly.feedly",
+    "description": "Unofficial Feedly app, a powerful, web-based RSS reader.",
+    "architecture": "armhf",
+    "title": "Feedly",
+    "hooks": {
+        "tweet": {
+            "apparmor": "feedly.apparmor",
+            "desktop":  "feedly.desktop"
+        }
+    },
+    "version": "1.0",
+    "maintainer": "Martin Ferretti <ferrettimartin@gmail.com>",
+    "framework" : "ubuntu-sdk-16.04"
+}
